@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Yrsa" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/my.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+        <title> My CV </title>
+</head>
+
+<body>
+
+        <main class="cd-container">
+                <!--  navigation bar  -->
+                <nav>
+                    <ul class="topnav" id="myTopnav">
+                            <li class="navi"><a href="#home">Home</a></li>
+                            <li class="navi"><a href="#personalDetails">Personal Details</a></li>
+                            <li class="navi"><a href="#skills">Skills</a></li>
+                            <li class="navi"><a href="#education">Education</a></li>
+                            <li class="navi"><a href="#jobs">Experience</a></li>
+                            <li class="icon">
+                            <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+                            </li>
+                    </ul>
+                </nav>
+                <section id="home">
+                        <!--Splash page picture-->
+                        <img id="image" src="img/freeline.jpg">
+                        <h2 id="picTxt"> My Name is Imran </h2>
+                </section>
+
+                <!-- Personal details   -->
+                <section id="personalDetails">
+                        <div id="personalDeets">
+                                    <img id="profPic" src="img/me.jpg">
+                                    <p> Name: Imran Lala </p>
+                                    <p> Phone Number: 07887375024</p>
+                                    <p> Email: ilala@spartaglobal.co </p>
+
+                                    <div class="socialIcons">
+                                                <a class="media-link" href="https://www.linkedin.com/in/imran-lala-76635ba0?trk=hp-identity-name"><img src="img/LinkedIn.png" /></a>
+                                                <a class="media-link" href="https://medium.com/me/stories/public"><img src="img/medium.jpg" /></a>
+                                                <a class="media-link" href="https://github.com/ilala1"><img src="img/Github.jpg" /></a>
+                                    </div>
+                        </div>
+                        <div id="summary">
+                                    <p>Imran has a broad range of skills ranging from Website development to Mobile Development
+                                                and always looking to increase his knowledge. Having also studied HCI and interaction
+                                                design his main interests lie with UI and front end development. He is a social and
+                                                active individual playing football and basketball regularly with friends which has
+                                                taught good communication and team skills. He can handle new situations, adapt to
+                                                ensure his best performance and is a quick learner. </p>
+                        </div>
+                </section>
+                <!-- Personal Details section End!!-->
+
+              	 <hr>
+                
+					 
+                <!--skills section -->
+                <section id="skills">
+							<h3> Skills </h3>
+							<div class="wrap">
+                                    <!-- Progress circles -->
+                                    <div class="progress-radial progress-25">
+                                                <div class="overlay">Java <br /> 25%</div>
+                                    </div>
+
+                                    <div class="progress-radial progress-50">
+                                                <div class="overlay">JS <br />50%</div>
+                                    </div>
+
+                                    <div class="progress-radial progress-75">
+                                                <div class="overlay">CSS <br />75%</div>
+                                    </div>
+
+                                    <div class="progress-radial progress-90">
+                                                <div class="overlay">HTML <br />90%</div>
+                                    </div>
+
+                                    <div class="progress-radial progress-50">
+                                                <div class="overlay">SQL <br />50%</div>
+                                    </div>
+							</div>
+                </section>
+                <!--skills section end-->
+
+                <hr>
+                <!-- Education section !!-->
+                <section id="education">
+                        <div class="eduContainer">
+                                <h3> Education </h3>
+                                <!--left side div -->
+                                <div class="left edu">
+                                        <h4> Aston University </h4>
+                                        <img id="Astonlogo" src="img/aston.jpg">
+                                        <div class="uniDesc">
+                                            <p> Duration: September 2013 – June 2016 </p>
+                                            <p> Grade: 2:2 </p>
+                                            <p>Modules include Software Engineering, Computer Graphics, Group Project, Profession
+                                                            Aspect of Computing, Data Structures and Algorithms with Java, Internet
+                                                            Applications and Techniques, Operating Systems, Human-Computer Interaction,
+                                                            Introduction to Computational Intelligence, Programming Language
+                                                            Concepts. </p>
+                                        </div>
+                                </div>
+                                <!-- right side div-->
+                                <div class="right edu">
+                                        <h4> Greenwich University </h4>
+                                        <img id="Astonlogo" src="img/GSM.jpg">
+                                        <div class="uniDesc">
+                                                <p> Duration: September 2011 – 2013 </p>
+                                                <p> Grade: 2:1 </p>
+                                                <p> Modules included IT and Professional Skills, Computer Systems, Artificial
+                                                                Intelligence, System Analysis and Design, Database Management Systems,
+                                                                Telecommunication and Networking, Quantitative Methods for Computing,
+                                                                Software Engineering and HCI, Internet Development
+                                                                and Computer Graphics. </p>
+                                        </div>
+                                </div>
+                        </div>
+                </section>
+                <!-- Education section end !!-->
+                <br />
+                <hr>
+                <!--                          Job experience                               -->
+                <section id="jobs">
+                    <div id="experience">
+                        <h3> Experience </h3>
+                        <!-- extenders with jobs -->
+                        <ul class="collapsible popout" data-collapsible="accordion">
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons"><img src="img/avatar.jpg"></i>Sparta Global</div>
+                            <div class="collapsible-body">
+                                            <p>November 2016 - Present </p>
+                                            <p>Working to become a junior website developer</p>
+                            </div>
+                        </li>
+                        <li>
+                                <div class="collapsible-header"><i class="material-icons"><img src="img/AC.jpg"></i>Abstract Coders</div>
+                                <div class="collapsible-body">
+                                        <p>September 2014 - September 2015 </p>
+                                        <p> Abstract Coders a software house that specialises in the latest technology
+                                                        to construct outstanding products that maximise profit not
+                                                        cost ideally for start-ups. Nature of the role specialised
+                                                        in mobile-friendly web development and mobile applications
+                                                        across platforms: iOS, Android and Windows. </p>
+                                        <div class="Duties">
+                                                <h5>Duties involved: </h5>
+                                                <ul>
+                                                        <li> Marketing and promoting the business offering our
+                                                                        services </li>
+                                                        <li> Developing websites for clients using HTML and CSS
+                                                        </li>
+                                                        <li> Gathering requirements amongst stakeholders </li>
+                                                </ul>
+                                        </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><i class="material-icons"><img src="img/premierInn.jpg"></i> Premier Inn</div>
+                                <div class="collapsible-body">
+                                    <p>June 2012 - September 2012</p>
+                                    <p> Retail job working in the restaurant and communication with the customers
+                                                    when welcoming and taking orders </p>
+                                    <div class="Duties">
+                                            <ul>
+                                                <h5>Duties involved: </h5>
+                                                <li> Welcoming Customers which improved my communication skills.
+                                                </li>
+                                                <li> Taking payments which further improved my money handling.
+                                                </li>
+                                                <li> Making deserts and hot beverages. </li>
+                                                <li> Taking orders which also helped my communication skills. 
+                                                </li>
+                                            </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!--Experience section end -->
+                <hr>
+
+                <h1>Contact form demo</h1>
+                    <div class="row">
+                        <form class="col s12" method="POST" action="/contact">
+                            <div class="row">
+                                <div class="input-field col s6">
+                                <input placeholder="First Name" name="firstName" id="firstName" type="text" class="validate" required>
+                                <label for="first_name">First Name</label>        
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                <input placeholder="Last Name" name="lastName" id="lastName" type="text" class="validate" required>
+                                <label for="last_name">Last Name</label>        
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                <input placeholder="Email" name="email" id="email" type="email" class="validate" required>
+                                <label for="email">Email</label>        
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                <input placeholder="Message" name="message" id="message" type="text" class="validate" required>
+                                <label for="message">Message</label>        
+                            </div>
+                            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                            </button>
+                        </form>
+                    </div>
+
+                <footer>
+                    <!--insert social icons-->
+                    <div class="socialIcons">
+                            <a class="media-link" href="https://www.linkedin.com/in/imran-lala-76635ba0?trk=hp-identity-name"><img src="img/LinkedIn.png" /></a>
+                            <a class="media-link" href="https://medium.com/me/stories/public"><img src="img/medium.png" /></a>
+                            <a class="media-link" href="https://github.com/ilala1"><img src="img/github.png" /></a>
+                            </div>
+            
+
+                </footer>
+
+
+                <!--back to the top button-->
+                <a href="#home" class="cd-top">Top</a>
+                <!--Import jQuery before materialize.js-->
+                <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
+                <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+                <!--job collapsible code-->
+                <script type="text/javascript" src="js/materialize.js"></script>
+                <!--contains job collapsible, window scroll, bouncing on scroll and scroll to the top button -->
+                <script src="js/mine.js"></script>
+
+        </main>
+</body>
+
+</html>
