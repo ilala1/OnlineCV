@@ -13,18 +13,13 @@ hr {
     width: 40%;
 }
 
-/*.cd-container {
-  width: 90%;
-  max-width: 768px;
-  margin: 2em auto;
-}*/
-
 /* back to the top button */
 .cd-container::after {
   /* clearfix */
   content: '';
   display: table;
   clear: both;
+  padding-right: 2vh;
 }
 
 .cd-top {
@@ -205,6 +200,11 @@ h3 , h4 {
   padding-top: 5%;
   padding-bottom: 5%;
 }    
+
+#educationIntro{
+  padding-left: 10vh;
+  padding-right: 10vh;
+}
 
 .edu {
     width: 100%;
