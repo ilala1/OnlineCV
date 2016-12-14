@@ -12,7 +12,7 @@ function myFunction() {
     mns = "main-nav-scrolled";
 
 $(window).scroll(function() {
-  if( $(this).scrollTop() > 600 ) {
+  if( $(this).scrollTop() > 400 ) {
     mn.addClass(mns);
   } else {
     mn.removeClass(mns);
@@ -35,7 +35,7 @@ $(document).ready(function(){
              $target = $(target);
 
          $('html, body').stop().animate({
-             'scrollTop': $target.offset().top - 0
+             'scrollTop': $target.offset().top - 100
          }, 900, 'swing', function () {
              window.location.hash = target;
          });

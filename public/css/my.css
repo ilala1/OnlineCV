@@ -1,7 +1,12 @@
 * {
-    font-family: 'Yrsa', serif;
-       
+    font-family: 'Dosis', sans-serif;
+    font-size: 3vh;    
 }
+
+h3 , h4 {
+    text-align: center;
+}
+
 /*scroll to top */
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
@@ -99,16 +104,21 @@ ul.topnav li a:hover {background-color: #555;}
 ul.topnav li.icon {display: none;}
 
 /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
-@media screen and (max-width:800px) {
+@media screen and (max-width:1000px) {
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
     float: right;
     display: inline-block;
   }
+
+  #skills{
+    padding-right: 5vh;
+
+  }
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
-@media screen and (max-width:800px) {
+@media screen and (max-width:1000px) {
   ul.topnav.responsive {position: relative;}
   ul.topnav.responsive li.icon {
     position: absolute;
@@ -149,13 +159,6 @@ li.navi a:hover {
     background-color: gray;
 }
 
-/*picture ontop of landing page image*/
-#picTxt {
-position: absolute;
-top:150px;
-left: 40%;
-width: 30%;
-}
 
 #personalDetails #profPic {
     border-radius: 50%;
@@ -189,15 +192,80 @@ width: 30%;
     padding-left: 10vh;
     padding-right: 10vh;
     padding-top: 3vh;
-    font-size: 3vh;
+    
 }
 
-h3 , h4 {
-    text-align: center;
-    }
+#skills {
+  background: lightgray;
+  padding-top: 2.5%;
+  padding-bottom: 12%;
+  width: 99%;
+}
+
+
+/*progress bar thingy*/
+
+
+.wrap {
+  width: 100%;
+  /*margin: 0 auto;*/
+  padding-left: 28%;
+  /*padding-bottom: 10%;*/
+}
+
+/* -------------------------------------
+ * Bar container
+ * ------------------------------------- */
+.progress-radial {
+  float: left;
+  margin-right: 30px;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #2f3439;
+  background-color: tomato;
+
+}
+
+/* -------------------------------------
+ * Optional centered circle w/text
+ * ------------------------------------- */
+.progress-radial .overlay {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: #fffde8;
+  border-radius: 50%;
+  margin-left: 19px;
+  margin-top: 18px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 16px;
+}
+
+/* -------------------------------------
+ * Mixin for progress-% class
+ * ------------------------------------- */
+
+.progress-25 {
+  background-image: linear-gradient(90deg, #2f3439 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(180deg, #ff6347 50%, #2f3439 50%, #2f3439);
+}
+
+.progress-50 {
+  background-image: linear-gradient(-90deg, #ff6347 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #ff6347 50%, #2f3439 50%, #2f3439);
+}
+
+.progress-75 {
+  background-image: linear-gradient(0deg, #ff6347 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #ff6347 50%, #2f3439 50%, #2f3439);
+}
+
+.progress-90 {
+  background-image: linear-gradient(54deg, #ff6347 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #ff6347 50%, #2f3439 50%, #2f3439);
+}
 
 #education {
-  padding-top: 5%;
+  padding-top: 2%;
   padding-bottom: 5%;
 }    
 
@@ -259,7 +327,7 @@ h3 , h4 {
 }
 
 #experience {
-  padding-top: 5%;
+  padding-top: 2%;
   padding-bottom: 10%;
 }
 
@@ -272,153 +340,35 @@ h3 , h4 {
     font-size: 15px;
 }
 
-#skills {
-  background: lightgray;
-  padding-top: 5%;
-  padding-bottom: 20%;
-      border-radius: 10%;
-    width: 99%;
+
+.btn, .btn-large{
+  background-color: #ff6347;
 }
 
-@media only screen and (min-width: 321px) and (max-width: 480px) {
-      #skills {
-     
-      right: 50%;
-      
-    }
-}
-/*progress bar thingy*/
-
-
-.wrap {
-  width: 100%;
-  /*margin: 0 auto;*/
-  padding-left: 28%;
-  /*padding-bottom: 10%;*/
-}
-
-/* -------------------------------------
- * Bar container
- * ------------------------------------- */
-.progress-radial {
-  float: left;
-  margin-right: 30px;
-  position: relative;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 2px solid #2f3439;
-  background-color: tomato;
+.btn {
+    background-color: #ff6347;
 
 }
 
-/* -------------------------------------
- * Optional centered circle w/text
- * ------------------------------------- */
-.progress-radial .overlay {
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  background-color: #fffde8;
-  border-radius: 50%;
-  margin-left: 19px;
-  margin-top: 18px;
-  text-align: center;
-  line-height: 60px;
-  font-size: 16px;
+.btn:active {
+    background-color: #ff6347;
+
 }
 
-/* -------------------------------------
- * Mixin for progress-% class
- * ------------------------------------- */
-.progress-0 {
-  background-image: linear-gradient(90deg, #2f3439 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(90deg, #ff6347 50%, #2f3439 50%, #2f3439);
+.btn:hover {
+    background-color: #ff6347;
+
 }
 
-.progress-5 {
-  background-image: linear-gradient(90deg, #2f3439 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(108deg, #ff6347 50%, #2f3439 50%, #2f3439);
-}
+.btn:valid {
+    background-color: #ff6347;
 
-.progress-10 {
-  background-image: linear-gradient(90deg, #2f3439 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(126deg, #ff6347 50%, #2f3439 50%, #2f3439);
-}
-
-.progress-15 {
-  background-image: linear-gradient(90deg, #2f3439 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(144deg, #ff6347 50%, #2f3439 50%, #2f3439);
-}
-
-.progress-20 {
-  background-image: linear-gradient(90deg, #2f3439 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(162deg, #ff6347 50%, #2f3439 50%, #2f3439);
-}
-
-.progress-25 {
-  background-image: linear-gradient(90deg, #2f3439 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(180deg, #ff6347 50%, #2f3439 50%, #2f3439);
-}
-
-.progress-30 {
-  background-image: linear-gradient(90deg, #2f3439 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(198deg, #ff6347 50%, #2f3439 50%, #2f3439);
-}
-
-.progress-35 {
-  background-image: linear-gradient(90deg, #2f3439 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(216deg, #ff6347 50%, #2f3439 50%, #2f3439);
-}
-
-.progress-40 {
-  background-image: linear-gradient(90deg, #2f3439 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(234deg, #ff6347 50%, #2f3439 50%, #2f3439);
-}
-
-.progress-45 {
-  background-image: linear-gradient(90deg, #2f3439 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(252deg, #ff6347 50%, #2f3439 50%, #2f3439);
-}
-
-.progress-50 {
-  background-image: linear-gradient(-90deg, #ff6347 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #ff6347 50%, #2f3439 50%, #2f3439);
-}
-
-.progress-55 {
-  background-image: linear-gradient(-72deg, #ff6347 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #ff6347 50%, #2f3439 50%, #2f3439);
-}
-
-.progress-60 {
-  background-image: linear-gradient(-54deg, #ff6347 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #ff6347 50%, #2f3439 50%, #2f3439);
-}
-
-.progress-65 {
-  background-image: linear-gradient(-36deg, #ff6347 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #ff6347 50%, #2f3439 50%, #2f3439);
-}
-
-.progress-70 {
-  background-image: linear-gradient(-18deg, #ff6347 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #ff6347 50%, #2f3439 50%, #2f3439);
-}
-
-.progress-75 {
-  background-image: linear-gradient(0deg, #ff6347 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #ff6347 50%, #2f3439 50%, #2f3439);
-}
-
-.progress-80 {
-  background-image: linear-gradient(18deg, #ff6347 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #ff6347 50%, #2f3439 50%, #2f3439);
-}
-
-.progress-85 {
-  background-image: linear-gradient(36deg, #ff6347 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #ff6347 50%, #2f3439 50%, #2f3439);
-}
-
-.progress-90 {
-  background-image: linear-gradient(54deg, #ff6347 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #ff6347 50%, #2f3439 50%, #2f3439);
-}
-
-.progress-95 {
-  background-image: linear-gradient(72deg, #ff6347 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #ff6347 50%, #2f3439 50%, #2f3439);
-}
-
-.progress-100 {
-  background-image: linear-gradient(90deg, #ff6347 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #ff6347 50%, #2f3439 50%, #2f3439);
 }
 
 footer {
   padding-top: 5%;
   padding-left: 45%;
-  padding-bottom: 7%; 
+  padding-bottom: 2%; 
   background: #333;
   display: block;
 
