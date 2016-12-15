@@ -372,9 +372,9 @@ footer {
       }
 
         #skills{
-        padding-right: 7%;
-        padding-top: 30%;
-        padding-bottom: 50%;
+        padding-right: 5%;
+        padding-top: 10%;
+        padding-bottom: 20%;
         width: 99%;
       }
 
@@ -385,10 +385,7 @@ footer {
 
       /*aston uni div*/
       .left {
-          /*border-radius: 10%;*/
           width: 100%;
-          /*height: 30%;*/
-          /*float: left;*/
           background: white;
           padding-bottom: 1vh;
 
@@ -406,11 +403,8 @@ footer {
 
       /*Greenwich div*/
       .right {
-              
-          /*border-radius: 10%;*/
+
           width: 100%;
-          /*height: 50%;*/
-          /*float: right;*/
           background: white;
           padding-bottom: 1vh;
         
@@ -425,12 +419,6 @@ footer {
           padding-top: 10px;
       }
 
-      /*.wrap {
-        width: 100%;
-
-        padding-left: 0%;
-
-      }*/
 }
 
 @media screen and (max-width:580px) {
@@ -460,8 +448,8 @@ footer {
 
         #skills{
         padding-right: 7%;
-        padding-top: 30%;
-        padding-bottom: 50%;
+        padding-top: 10%;
+        padding-bottom: 5%;
         width: 99%;
       }
 
@@ -472,17 +460,14 @@ footer {
 
       /*aston uni div*/
       .left {
-          /*border-radius: 10%;*/
           width: 100%;
-          /*height: 30%;*/
-          /*float: left;*/
           background: white;
           padding-bottom: 1vh;
 
       }
 
       .left:hover {
-          background: black;
+          background: lightgray;
       }
 
      .uniDesc {
@@ -493,11 +478,7 @@ footer {
 
       /*Greenwich div*/
       .right {
-              
-          /*border-radius: 10%;*/
           width: 100%;
-          /*height: 50%;*/
-          /*float: right;*/
           background: white;
           padding-bottom: 1vh;
         
@@ -507,15 +488,4 @@ footer {
       .right:hover {
           background: lightgray;
       }
-
-      #gsm {
-          padding-top: 10px;
-      }
-
-      /*.wrap {
-        width: 100%;
-
-        padding-left: 0%;
-
-      }*/
 }
