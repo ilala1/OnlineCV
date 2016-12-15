@@ -361,6 +361,9 @@ footer {
         top: 0;
       }
 
+      #summary{
+          line-height: 120%;
+      }
 
       ul.topnav.responsive li {
         float: none;
@@ -370,6 +373,8 @@ footer {
         display: block;
         text-align: left;
       }
+
+
 
         #skills{
         padding-right: 1%;
