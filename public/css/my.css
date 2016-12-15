@@ -376,6 +376,13 @@ footer {
         padding-top: 10%;
         padding-bottom: 20%;
         width: 99%;
+       
+      }
+
+    .wrap{
+        
+          /*padding-right: 5% */
+          margin-left: -7%;
       }
 
       .edu {
@@ -452,6 +459,8 @@ footer {
         padding-bottom: 5%;
         width: 99%;
       }
+
+
 
       .edu {
         /*width: 100%;*/
