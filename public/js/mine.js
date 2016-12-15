@@ -9,7 +9,7 @@ function myFunction() {
 
 // sticky nav
  var  mn = $("#myTopnav");
-    mns = "main-nav-scrolled";
+    mns = "main-nav-scrolled responsive";
 
 $(window).scroll(function() {
   if( $(this).scrollTop() > 400 ) {
