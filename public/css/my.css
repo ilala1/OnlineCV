@@ -341,7 +341,12 @@ footer {
   padding-bottom: 2%; 
   background: #333;
   display: block;
+  color: white;
 
+}
+
+#design {
+    padding-right: 10%;
 }
 
 /* -----------------------------------------  mobile responsiveness ------------------------------------------------ */
