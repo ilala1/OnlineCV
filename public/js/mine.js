@@ -7,6 +7,11 @@ function myFunction() {
     }
 }
 
+  $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal').modal();
+  });
+
 // sticky nav
  var  mn = $("#myTopnav");
     mns = "main-nav-scrolled responsive";
@@ -46,17 +51,31 @@ $(document).ready(function(){
 
 
 // bouncing on scroll
-$(function(){
+// $(function(){
 
 
-    var choice = [
-         {selector: '.edu', offset: 200, callback: '$(".edu").addClass("bounceInRight animated").css("visibility","visible")'}
+//     var choice = [
+//          {selector: '.edu', offset: 200, callback: '$(".edu").addClass("bounceInRight animated").css("visibility","visible")'},
+//          {selector: '.picTxt', offset: 1, callback: '$(".picTxt").addClass("fadeInleft animated").css("visibility","visible")'}
          
+//     ];
+
+//     Materialize.scrollFire(choice);
+// });
+
+$(function(){
+                
+        var choice = [
+
+        {selector: '.edu', offset: 200, callback: '$(".edu").addClass("bounceInRight animated").css("visibility", "visible")'}  
+        // {selector: '.picTxt', offset: 0.1, callback: '$(".picTxt").addClass("bounceInLeft animated").css("visibility", "visible")'}
     ];
 
     Materialize.scrollFire(choice);
 });
 
+
+// back to the top button
 jQuery(document).ready(function($){
 	// browser window scroll (in pixels) after which the "back to top" link is shown
 	var offset = 300,
