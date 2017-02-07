@@ -4,6 +4,7 @@
 }
 nav{
   background-color: black;
+  height: 9%;
 }
 
 nav ul li:hover {
@@ -420,7 +421,7 @@ footer {
           
       }
 
-            .edu {
+        .edu {
         width: 100%;
         padding-top: 5%;
 }
