@@ -3,7 +3,7 @@
     font-size: 2.5vh;    
 }
 
-/*nav{
+nav{
 	background-color: black !important;
 }
 
@@ -13,16 +13,13 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-	font-weight: bold;
+    font-weight: bold;
+    background-color: grey;
 }
 
-#nav-mobile li a{
-	cursor: pointer !important;
-}*/
-
-/*.navbar-fixed {
+.navbar-fixed {
   z-index: 998 !important;
-}*/
+}
 
 
 h3 , h4 {
@@ -252,7 +249,7 @@ hr {
 
 }
 
-.right:hover {
+.rightdiv:hover {
     background: lightgray;
 }
 

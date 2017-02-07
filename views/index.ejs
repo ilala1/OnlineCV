@@ -1,363 +1,349 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+    <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <!--Import materialize.css-->
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <link rel="stylesheet" type="text/css" href="css/my.css">
     <title> Imran Lala </title>
 </head>
+
 <body>
-    <main class="cd-container">
-        <header>
-            <!--MAIN NAVIGATION-->
-            <!--<div class="navbar-fixed">-->
-            <div class="navbar-fixed">
-                <nav role="navigation">
-                    <div class="nav-wrapper">
-                        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                        <ul class="hide-on-med-and-down">
-                            <li><a class=" waves-effect waves-light scrollspy" href="#home">Home</a></li>
-                            <li><a class=" waves-effect waves-light scrollspy" href="#personalDetails">Personal Details</a></li>
-                            <li><a class=" waves-effect waves-light scrollspy" href="#skills">Skills</a></li>
-                            <li><a class=" waves-effect waves-light scrollspy" href="#education">Education</a></li>
-                            <li><a class=" waves-effect waves-light scrollspy" href="#jobs">Experience</a></li>
-                            <li><a class=" waves-effect waves-light scrollspy" href="#portfolio">Portfolio</a></li>
-                            <li><a class="waves-effect waves-light scrollspy" href="#contact">Contact</a></li>
+    <header>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper">
+                    <!--<a href="#!" class="brand-logo">Logo</a>-->
+                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="sass.html">Sass</a></li>
+                        <li><a href="badges.html">Components</a></li>
+                        <li><a href="collapsible.html">Javascript</a></li>
+                        <li><a href="mobile.html">Mobile</a></li>
+                    </ul>
+                    <ul class="side-nav" id="mobile-demo">
+                        <li><a href="sass.html">Sass</a></li>
+                        <li><a href="badges.html">Components</a></li>
+                        <li><a href="collapsible.html">Javascript</a></li>
+                        <li><a href="mobile.html">Mobile</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section id="home">
+        <!--Splash page picture-->
+        <h3 class="picTxt">Welcome to my Website </h3>
+        <img id="image" src="img/giphy.gif " a href="https://youtu.be/UyO8_QeFOTk">
+    </section>
+    <!-- Personal details   -->
+    <section id="personalDetails">
+        <div id="personalDeets">
+            <img id="profPic" src="img/me1.png">
+            <p> Name: Imran Lala </p>
+            <p> Email: ilala@spartaglobal.co </p>
 
-                        </ul>
-                        <!-- END OF MAIN NAVIGATION-->
+            <div class="socialIcons">
+                <a class="media-link" href="https://www.linkedin.com/in/imran-lala-76635ba0?trk=hp-identity-name"><img src="img/LinkedIn.png" /></a>
+                <a class="media-link" href="https://medium.com/me/stories/public"><img src="img/medium.jpg" /></a>
+                <a class="media-link" href="https://github.com/ilala1"><img src="img/GitHub.jpg" /></a>
+            </div>
+        </div>
+        <div id="summary">
+            <p>Imran has a broad range of skills ranging from Website development to Mobile Development and always looking to
+                increase his knowledge. Having also studied HCI and interaction design his main interests lie with UI and
+                front end development. He is a social and active individual playing football and basketball regularly with
+                friends which has taught good communication and team skills. He can handle new situations, adapt to ensure
+                his best performance and is a quick learner. </p>
+        </div>
+    </section>
+    <!-- Personal Details section End!!-->
+    <!--skills section -->
+    <section id="skills">
+        <h3> Skills </h3>
 
-                        <!--MOBILE NAVIGATION-->
-                        <ul class="side-nav" id="mobile-demo">
-                            <li><a class="scrollspy" href="#home">Home</a></li>
-                            <li><a class="scrollspy" href="#personalDetails">Personal Details</a></li>
-                            <li><a class="scrollspy" href="#skills">Skills</a></li>
-                            <li><a class="scrollspy" href="#education">Education</a></li>
-                            <li><a class="scrollspy" href="#portfolio">Portfolio</a></li>
-                            <li><a class="scrollspy" href="#contact">Contact</a></li>
-                        </ul>
-                        <!-- END OF MOBILE NAVIGATION-->
+        <div class="wrap">
+            <!-- Progress circles -->
+            <div class="progress-radial progress-25">
+                <div class="overlay">Java <br /> 25%</div>
+            </div>
 
-                        <!--MOBILE NAVIGATION TRIGGER-->
-                        <!--<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>-->
+            <div class="progress-radial progress-50">
+                <div class="overlay">JS <br />50%</div>
+            </div>
+
+            <div class="progress-radial progress-75">
+                <div class="overlay">CSS3 <br />75%</div>
+            </div>
+            <div class="progress-radial progress-50">
+                <div class="overlay">Node.js <br />50%</div>
+            </div>
+
+            <div class="progress-radial progress-90">
+                <div class="overlay">HTML5 <br />90%</div>
+            </div>
+
+            <div class="progress-radial progress-50">
+                <div class="overlay">SQL <br />50%</div>
+            </div>
+            <div class="progress-radial progress-25">
+                <div class="overlay">Mongo <br />25</div>
+            </div>
+            <div class="progress-radial progress-25">
+                <div class="overlay">Vue.js <br />25%</div>
+            </div>
+        </div>
+    </section>
+    <!--skills section end-->
+    <hr>
+    <!-- Education section !!-->
+    <section id="education">
+        <div class="eduContainer">
+            <h3> Education </h3>
+            <div class="educationIntro">
+                <p>I spent two years bettering theoretical knowledge at Greenwich University and then transferred to Aston University
+                    to realise my programming ambition. I covered a range of topics such as ‘Software engineering’, ‘Internet
+                    applications and techniques’, ‘Game development’ and ‘Computer Graphics’. I also studied Human Computer
+                    Interaction (HCI) and Interaction design which is useful when developing UIs and for front end development.
+                    Aside from joining the Football, Computer Science and Isoc societies, I also started my own business
+                    during my placement year. </p>
+            </div>
+            <!--left side div -->
+            <div class="left edu">
+                <h4> Aston University </h4>
+                <img id="Astonlogo" src="img/aston.jpg">
+                <div class="uniDesc">
+                    <p> Duration: September 2013 – June 2016 </p>
+                    <p> Grade: 2:2 </p>
+                    <p>Modules include Software Engineering, Computer Graphics, Group Project, Profession Aspect of Computing,
+                        Data Structures and Algorithms with Java, Internet Applications and Techniques, Operating Systems,
+                        Human-Computer Interaction, Introduction to Computational Intelligence, Programming Language Concepts.
+                    </p>
+                </div>
+            </div>
+            <!-- right side div-->
+            <div class="rightdiv edu">
+                <h4> Greenwich University </h4>
+                <img id="Astonlogo" src="img/GSM.jpg">
+                <div class="uniDesc">
+                    <p> Duration: September 2011 – 2013 </p>
+                    <p> Grade: 2:1 </p>
+                    <p> Modules included IT and Professional Skills, Computer Systems, Artificial Intelligence, System Analysis
+                        and Design, Database Management Systems, Telecommunication and Networking, Quantitative Methods for
+                        Computing, Software Engineering and HCI, Internet Development and Computer Graphics. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Education section end !!-->
+    <hr>
+    <br />
+    <hr>
+    <!--                          Job experience                               -->
+    <section id="jobs">
+        <div id="experience">
+            <h3> Experience </h3>
+            <!-- extenders with jobs -->
+            <ul class="collapsible popout" data-collapsible="accordion">
+                <li>
+                    <div class="collapsible-header"><i class="material-icons"><img src="img/avatar.jpg"></i>Sparta Global</div>
+                    <div class="collapsible-body">
+                        <p>November 2016 - Present </p>
+                        <p>Working to become a junior website developer</p>
                     </div>
-                    <!-- END OF NAV WRAPPER-->
-                </nav>
-                <!-- END OF NAVIGATION-->
-            </div>
-            </div>
-            <!--END OF NAVIGATION FIXED-->
-        </header>
-        <section id="home">
-            <!--Splash page picture-->
-            <h3 class="picTxt">Welcome to my Website </h3>
-            <img id="image" src="img/giphy.gif " a href="https://youtu.be/UyO8_QeFOTk">
-        </section>
-        <!-- Personal details   -->
-        <section id="personalDetails">
-            <div id="personalDeets">
-                <img id="profPic" src="img/me1.png">
-                <p> Name: Imran Lala </p>
-                <p> Email: ilala@spartaglobal.co </p>
-
-                <div class="socialIcons">
-                    <a class="media-link" href="https://www.linkedin.com/in/imran-lala-76635ba0?trk=hp-identity-name"><img src="img/LinkedIn.png" /></a>
-                    <a class="media-link" href="https://medium.com/me/stories/public"><img src="img/medium.jpg" /></a>
-                    <a class="media-link" href="https://github.com/ilala1"><img src="img/GitHub.jpg" /></a>
-                </div>
-            </div>
-            <div id="summary">
-                <p>Imran has a broad range of skills ranging from Website development to Mobile Development and always looking
-                    to increase his knowledge. Having also studied HCI and interaction design his main interests lie with
-                    UI and front end development. He is a social and active individual playing football and basketball regularly
-                    with friends which has taught good communication and team skills. He can handle new situations, adapt
-                    to ensure his best performance and is a quick learner. </p>
-            </div>
-        </section>
-        <!-- Personal Details section End!!-->
-        <hr>
-        <!--skills section -->
-        <section id="skills">
-            <h3> Skills </h3>
-
-            <div class="wrap">
-                <!-- Progress circles -->
-                <div class="progress-radial progress-25">
-                    <div class="overlay">Java <br /> 25%</div>
-                </div>
-
-                <div class="progress-radial progress-50">
-                    <div class="overlay">JS <br />50%</div>
-                </div>
-
-                <div class="progress-radial progress-75">
-                    <div class="overlay">CSS3 <br />75%</div>
-                </div>
-                <div class="progress-radial progress-50">
-                    <div class="overlay">Node.js <br />50%</div>
-                </div>
-
-                <div class="progress-radial progress-90">
-                    <div class="overlay">HTML5 <br />90%</div>
-                </div>
-
-                <div class="progress-radial progress-50">
-                    <div class="overlay">SQL <br />50%</div>
-                </div>
-                <div class="progress-radial progress-25">
-                    <div class="overlay">Mongo <br />25</div>
-                </div>
-                <div class="progress-radial progress-25">
-                    <div class="overlay">Vue.js <br />25%</div>
-                </div>
-            </div>
-        </section>
-        <!--skills section end-->
-
-        <hr>
-        <!-- Education section !!-->
-        <section id="education">
-            <div class="eduContainer">
-                <h3> Education </h3>
-                <div class="educationIntro">
-                    <p>I spent two years bettering theoretical knowledge at Greenwich University and then transferred to Aston
-                        University to realise my programming ambition. I covered a range of topics such as ‘Software engineering’,
-                        ‘Internet applications and techniques’, ‘Game development’ and ‘Computer Graphics’. I also studied
-                        Human Computer Interaction (HCI) and Interaction design which is useful when developing UIs and for
-                        front end development. Aside from joining the Football, Computer Science and Isoc societies, I also
-                        started my own business during my placement year. </p>
-                </div>
-                <!--left side div -->
-                <div class="left edu">
-                    <h4> Aston University </h4>
-                    <img id="Astonlogo" src="img/aston.jpg">
-                    <div class="uniDesc">
-                        <p> Duration: September 2013 – June 2016 </p>
-                        <p> Grade: 2:2 </p>
-                        <p>Modules include Software Engineering, Computer Graphics, Group Project, Profession Aspect of Computing,
-                            Data Structures and Algorithms with Java, Internet Applications and Techniques, Operating Systems,
-                            Human-Computer Interaction, Introduction to Computational Intelligence, Programming Language
-                            Concepts. </p>
-                    </div>
-                </div>
-                <!-- right side div-->
-                <div class="rightdiv edu">
-                    <h4> Greenwich University </h4>
-                    <img id="Astonlogo" src="img/GSM.jpg">
-                    <div class="uniDesc">
-                        <p> Duration: September 2011 – 2013 </p>
-                        <p> Grade: 2:1 </p>
-                        <p> Modules included IT and Professional Skills, Computer Systems, Artificial Intelligence, System Analysis
-                            and Design, Database Management Systems, Telecommunication and Networking, Quantitative Methods
-                            for Computing, Software Engineering and HCI, Internet Development and Computer Graphics. </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Education section end !!-->
-        <br />
-        <hr>
-        <!--                          Job experience                               -->
-        <section id="jobs">
-            <div id="experience">
-                <h3> Experience </h3>
-                <!-- extenders with jobs -->
-                <ul class="collapsible popout" data-collapsible="accordion">
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons"><img src="img/avatar.jpg"></i>Sparta Global</div>
-                        <div class="collapsible-body">
-                            <p>November 2016 - Present </p>
-                            <p>Working to become a junior website developer</p>
+                </li>
+                <li>
+                    <div class="collapsible-header"><i class="material-icons"><img src="img/AC.JPG"></i>Abstract Coders</div>
+                    <div class="collapsible-body">
+                        <p>September 2014 - September 2015 </p>
+                        <p> Abstract Coders a software house that specialises in the latest technology to construct outstanding
+                            products that maximise profit not cost ideally for start-ups. Nature of the role specialised
+                            in mobile-friendly web development and mobile applications across platforms: iOS, Android and
+                            Windows. </p>
+                        <div class="Duties">
+                            <h5>Duties involved: </h5>
+                            <ul>
+                                <li> Marketing and promoting the business offering our services </li>
+                                <li> Developing websites for clients using HTML and CSS
+                                </li>
+                                <li> Gathering requirements amongst stakeholders </li>
+                            </ul>
                         </div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons"><img src="img/AC.JPG"></i>Abstract Coders</div>
-                        <div class="collapsible-body">
-                            <p>September 2014 - September 2015 </p>
-                            <p> Abstract Coders a software house that specialises in the latest technology to construct outstanding
-                                products that maximise profit not cost ideally for start-ups. Nature of the role specialised
-                                in mobile-friendly web development and mobile applications across platforms: iOS, Android
-                                and Windows. </p>
-                            <div class="Duties">
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><i class="material-icons"><img src="img/premierInn.jpg"></i> Premier Inn</div>
+                    <div class="collapsible-body">
+                        <p>June 2012 - September 2012</p>
+                        <p> Retail job working in the restaurant and communication with the customers when welcoming and taking
+                            orders </p>
+                        <div class="Duties">
+                            <ul>
                                 <h5>Duties involved: </h5>
-                                <ul>
-                                    <li> Marketing and promoting the business offering our services </li>
-                                    <li> Developing websites for clients using HTML and CSS
-                                    </li>
-                                    <li> Gathering requirements amongst stakeholders </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons"><img src="img/premierInn.jpg"></i> Premier Inn</div>
-                        <div class="collapsible-body">
-                            <p>June 2012 - September 2012</p>
-                            <p> Retail job working in the restaurant and communication with the customers when welcoming and
-                                taking orders </p>
-                            <div class="Duties">
-                                <ul>
-                                    <h5>Duties involved: </h5>
-                                    <li> Welcoming Customers which improved my communication skills.
-                                    </li>
-                                    <li> Taking payments which further improved my money handling.
-                                    </li>
-                                    <li> Making deserts and hot beverages. </li>
-                                    <li> Taking orders which also helped my communication skills.
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <!--Experience section end -->
-        <hr>
-        <section id="portfolio">
-            <h3> Portfolio </h3>
-            <div class="portfolio">
-                <div class="row">
-                    <div class="col s4">
-                        <h4>Rock, Paper Scissors</h4>
-                        <div class="hovereffect">
-                            <img class="img-responsive" src="img/rps_logo.png" alt="">
-                            <div class="overlay">
-                                <h2></h2>
-                                <p>
-                                    <a href="https://github.com/ilala1/RockPaperScissorsGame" target="_blank">LINK HERE</a>
-                                </p>
-                            </div>
+                                <li> Welcoming Customers which improved my communication skills.
+                                </li>
+                                <li> Taking payments which further improved my money handling.
+                                </li>
+                                <li> Making deserts and hot beverages. </li>
+                                <li> Taking orders which also helped my communication skills.
+                                </li>
+                            </ul>
                         </div>
                     </div>
-
-                    <div class="col s4">
-                        <h4>Blackjack Game</h4>
-                        <div class="hovereffect">
-                            <img class="img-responsive" src="img/blackjack.png" alt="">
-                            <div class="overlay">
-                                <h2></h2>
-                                <p>
-                                    <a href="https://blackjackwebtest.herokuapp.com/" target="_blank">LINK HERE</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col s4">
-                        <h4>Airport Tracker</h4>
-                        <div class="hovereffect">
-                            <img class="img-responsive" src="img/Airport.png" alt="">
-                            <div class="overlay">
-                                <h2></h2>
-                                <p><a href="https://airport-tracker.herokuapp.com/" target="_blank">LINK HERE</a></p>
-                                <p> This is an application which allows the searching of flight arrivals and departures from
-                                    any major airport.</p>
-                            </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!--Experience section end -->
+    <hr>
+    <section id="portfolio">
+        <h3> Portfolio </h3>
+        <div class="portfolio">
+            <div class="row">
+                <div class="col s4">
+                    <h4>Rock, Paper Scissors</h4>
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="img/rps_logo.png" alt="">
+                        <div class="overlay">
+                            <h2></h2>
+                            <p>
+                                <a href="https://github.com/ilala1/RockPaperScissorsGame" target="_blank">LINK HERE</a>
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col s4">
-                        <h4>Car Game</h4>
-                        <div class="hovereffect">
-                            <img class="img-responsive" src="img/cargame.png" alt="">
-                            <div class="overlay">
-                                <h2></h2>
-                                <p><a href="https://github.com/ilala1/CarGame/" target="_blank">LINK HERE</a></p>
-                                <p> This is a car game made in Unity3d for a university module. Please read the readme for instructions</p>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="col s4">
-                        <h4>Computer Animation</h4>
-                        <div class="hovereffect">
-                            <img class="img-responsive" src="img/compAnimation.png" alt="">
-                            <div class="overlay">
-                                <h2></h2>
-                                <p><a href="https://youtu.be/ITvLTW9ZVGk" target="_blank">LINK HERE</a></p>
-                                <p> This is a car game made in Unity3d for a university module. Please read the readme for instructions</p>
-                            </div>
+                <div class="col s4">
+                    <h4>Blackjack Game</h4>
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="img/blackjack.png" alt="">
+                        <div class="overlay">
+                            <h2></h2>
+                            <p>
+                                <a href="https://blackjackwebtest.herokuapp.com/" target="_blank">LINK HERE</a>
+                            </p>
                         </div>
                     </div>
-                    <div class="col s4">
-                        <h4>Tic Tac Toe</h4>
-                        <div class="hovereffect">
-                            <img class="img-responsive" src="img/ttt.png" alt="">
-                            <div class="overlay">
-                                <h2></h2>
-                                <p><a href="https://github.com/ilala1/TicTacToe" target="_blank">LINK HERE</a></p>
-                                <p> This is a car game made in Unity3d for a university module. Please read the readme for instructions</p>
-                            </div>
+                </div>
+
+                <div class="col s4">
+                    <h4>Airport Tracker</h4>
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="img/Airport.png" alt="">
+                        <div class="overlay">
+                            <h2></h2>
+                            <p><a href="https://airport-tracker.herokuapp.com/" target="_blank">LINK HERE</a></p>
+                            <p> This is an application which allows the searching of flight arrivals and departures from any
+                                major airport.</p>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col s4">
+                    <h4>Car Game</h4>
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="img/cargame.png" alt="">
+                        <div class="overlay">
+                            <h2></h2>
+                            <p><a href="https://github.com/ilala1/CarGame/" target="_blank">LINK HERE</a></p>
+                            <p> This is a car game made in Unity3d for a university module. Please read the readme for instructions</p>
+                        </div>
+                    </div>
+                </div>
 
-        </section>
-        <hr>
-        <!--Contact section -->
-        <section id="contact">
-            <div id="contactForm">
-                <h3>Contact</h3>
-                <div class="row">
-                    <form class="col s12" method="POST" action="/contact">
+                <div class="col s4">
+                    <h4>Computer Animation</h4>
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="img/compAnimation.png" alt="">
+                        <div class="overlay">
+                            <h2></h2>
+                            <p><a href="https://youtu.be/ITvLTW9ZVGk" target="_blank">LINK HERE</a></p>
+                            <p> This is a car game made in Unity3d for a university module. Please read the readme for instructions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s4">
+                    <h4>Tic Tac Toe</h4>
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="img/ttt.png" alt="">
+                        <div class="overlay">
+                            <h2></h2>
+                            <p><a href="https://github.com/ilala1/TicTacToe" target="_blank">LINK HERE</a></p>
+                            <p> This is a car game made in Unity3d for a university module. Please read the readme for instructions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <hr>
+    <!--Contact section -->
+    <section id="contact">
+        <div id="contactForm">
+            <h3>Contact</h3>
+            <div class="row">
+                <form class="col s12" method="POST" action="/contact">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input placeholder="First Name" name="firstName" id="firstName" type="text" class="validate" required>
+                            <label for="first_name">First Name</label>
+                        </div>
                         <div class="row">
                             <div class="input-field col s6">
-                                <input placeholder="First Name" name="firstName" id="firstName" type="text" class="validate" required>
-                                <label for="first_name">First Name</label>
+                                <input placeholder="Last Name" name="lastName" id="lastName" type="text" class="validate" required>
+                                <label for="last_name">Last Name</label>
                             </div>
                             <div class="row">
                                 <div class="input-field col s6">
-                                    <input placeholder="Last Name" name="lastName" id="lastName" type="text" class="validate" required>
-                                    <label for="last_name">Last Name</label>
+                                    <input placeholder="Email" name="email" id="email" type="email" class="validate" required>
+                                    <label for="email">Email</label>
                                 </div>
                                 <div class="row">
                                     <div class="input-field col s6">
-                                        <input placeholder="Email" name="email" id="email" type="email" class="validate" required>
-                                        <label for="email">Email</label>
+                                        <input placeholder="Message" name="message" id="message" type="text" class="validate" required>
+                                        <label for="message">Message</label>
                                     </div>
-                                    <div class="row">
-                                        <div class="input-field col s6">
-                                            <input placeholder="Message" name="message" id="message" type="text" class="validate" required>
-                                            <label for="message">Message</label>
-                                        </div>
-                                        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-                            </button>
-                    </form>
-                    </div>
-                    </div>
-        </section>
-        <footer>
-            <div id="design">
-                <p> Created by Imran Lala </p>
-            </div>
-            <!--insert social icons-->
-            <div class="socialIcons">
+                                    <button class="btn waves-effect waves-light" type="submit" name="action">Submit</button>
+                </form>
+                </div>
+                </div>
+    </section>
+    <footer>
+        <div id="design">
+            <p> Created by Imran Lala </p>
+        </div>
+        <!--insert social icons-->
+        <div class="socialIcons">
 
-                <a class="media-link" href="https://www.linkedin.com/in/imran-lala-76635ba0?trk=hp-identity-name"><img src="img/LinkedIn.png" /></a>
-                <a class="media-link" href="https://medium.com/me/stories/public"><img src="img/medium.png" /></a>
-                <a class="media-link" href="https://github.com/ilala1"><img src="img/github.png" /></a>
-            </div>
+            <a class="media-link" href="https://www.linkedin.com/in/imran-lala-76635ba0?trk=hp-identity-name"><img src="img/LinkedIn.png" /></a>
+            <a class="media-link" href="https://medium.com/me/stories/public"><img src="img/medium.png" /></a>
+            <a class="media-link" href="https://github.com/ilala1"><img src="img/github.png" /></a>
+        </div>
 
 
-        </footer>
+    </footer>
 
 
-        <!--back to the top button-->
-        <a href="#home" id="top" class="cd-top">Top</a>
+    <!--back to the top button-->
+    <a href="#home" id="top" class="cd-top">Top</a>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <body>
         <!--Import jQuery before materialize.js-->
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <!--job collapsible code-->
-        <script type="text/javascript" src="js/materialize.js"></script>
-        <!--contains job collapsible, window scroll, bouncing on scroll and scroll to the top button -->
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script src="js/test.js"></script>
         <script src="js/mine.js"></script>
 
-    </main>
-</body>
+    </body>
 
 </html>
