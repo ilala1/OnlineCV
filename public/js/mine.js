@@ -1,3 +1,7 @@
+$( document ).ready(function(){
+    $(".button-collapse").sideNav();
+})
+
 function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
@@ -12,17 +16,17 @@ function myFunction() {
     $('.modal').modal();
   });
 
-// sticky nav
- var  mn = $("#myTopnav");
-    mns = "main-nav-scrolled responsive";
+// // sticky nav
+//  var  mn = $("#myTopnav");
+//     mns = "main-nav-scrolled responsive";
 
-$(window).scroll(function() {
-  if( $(this).scrollTop() > 400 ) {
-    mn.addClass(mns);
-  } else {
-    mn.removeClass(mns);
-  }
-});
+// $(window).scroll(function() {
+//   if( $(this).scrollTop() > 400 ) {
+//     mn.addClass(mns);
+//   } else {
+//     mn.removeClass(mns);
+//   }
+// });
 
 // collapsible job section
 $(document).ready(function(){
@@ -33,7 +37,7 @@ $(document).ready(function(){
 
 // smooth scroll
   $(document).ready(function () {
-     $('a[href^="#"]').on('click', function (e) {
+     $('#top').on('click', function (e) {
          e.preventDefault();
 
          var target = this.hash,
@@ -48,21 +52,7 @@ $(document).ready(function(){
  });
 
 
-
-
 // bouncing on scroll
-// $(function(){
-
-
-//     var choice = [
-//          {selector: '.edu', offset: 200, callback: '$(".edu").addClass("bounceInRight animated").css("visibility","visible")'},
-//          {selector: '.picTxt', offset: 1, callback: '$(".picTxt").addClass("fadeInleft animated").css("visibility","visible")'}
-         
-//     ];
-
-//     Materialize.scrollFire(choice);
-// });
-
 $(function(){
                 
         var choice = [
