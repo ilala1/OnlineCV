@@ -2,22 +2,47 @@
     font-family: 'Dosis', sans-serif;
     /*font-size: 2.5vh;    */
 }
-nav{
+/*nav{
   background-color: black;
+  height: 20%;
 }
 
-nav ul li:hover {
-   background-color: grey;
+#nav-mobile li a:hover {
+    cursor: pointer !important;
+}
+
+.navbar-fixed {
+  z-index: 998 !important;
+}*/
+
+nav{
+	background-color: #CDAD00 !important;
+	width: 100%;
+	opacity: 0.9;
+}
+
+nav li {
+	width: 20% !important; 
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+}
+
+nav ul li a{
+	width: 100%;
+}
+
+nav ul li a:hover{
+	font-weight: bold;
 }
 
 #nav-mobile li a{
-    cursor: pointer !important;
-    height: 10%;
+	cursor: pointer !important;
 }
 
 .navbar-fixed {
   z-index: 998 !important;
 }
+
 
 h3 , h4 {
     text-align: center;
