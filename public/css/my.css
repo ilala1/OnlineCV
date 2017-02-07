@@ -89,7 +89,7 @@ hr {
 }
 .picTxt {
     position: absolute;
-    padding-top:11vh;
+    padding-top:30vh;
     left: 35%;
     width: 30%;
     z-index: 100;
@@ -553,23 +553,25 @@ footer {
 }
 
 @media screen and (max-width:580px) {
+/**{background-color: blue;}*/
+
 
       h3{
         font-size: 3vh;
       }
 
-        picTxt{
-        position: absolute;
-        padding-top:2vh;
-        left: 35%;
-        width: 30%;
-        z-index: 100;
-      }
+    .picTxt {
+    position: absolute;
+    padding-top:6vh;
+    left: 35%;
+    width: 30%;
+    z-index: 100;
+}
 
         #skills{
         padding-right: 7%;
         padding-top: 5%;
-        padding-bottom: 22%;
+        padding-bottom: 60%;
         width: 99%;
       }
 
@@ -614,8 +616,8 @@ footer {
       .right:hover {
           background: lightgray;
       }
-
+/*
       port{
         margin-left: 10vh;
-      }
+      }*/
 }
