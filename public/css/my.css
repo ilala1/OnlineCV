@@ -615,8 +615,15 @@ footer {
       .right:hover {
           background: lightgray;
       }
-/*
-      port{
-        margin-left: 10vh;
-      }*/
+
+      footer {
+        padding-top: 5%;
+        padding-left: 30%;
+        padding-bottom: 2%; 
+        background: #333;
+        display: block;
+        color: white;
+
+        }
+
 }
