@@ -93,6 +93,7 @@ hr {
     left: 35%;
     width: 30%;
     z-index: 100;
+    text-align: center;
 }
 
 #personalDetails #profPic {
