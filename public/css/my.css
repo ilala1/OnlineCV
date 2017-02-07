@@ -556,9 +556,9 @@ footer {
 /**{background-color: blue;}*/
 
 
-      h3{
-        font-size: 3vh;
-      }
+    h3{
+    font-size: 3vh;
+    }
 
     .picTxt {
     position: absolute;
@@ -568,18 +568,17 @@ footer {
     z-index: 100;
 }
 
-        #skills{
-        padding-right: 7%;
-        padding-top: 5%;
-        padding-bottom: 60%;
-        width: 99%;
-      }
+    #skills{
+    padding-right: 7%;
+    padding-top: 5%;
+    padding-bottom: 60%;
+    width: 99%;
+    }
 
-        .wrap{
-        
-          padding-bottom: 30%;
-          align-content: center;
-      }
+    .wrap{
+    padding-bottom: 40%;
+    align-content: center;
+    }
 
       .edu {
         /*width: 100%;*/
