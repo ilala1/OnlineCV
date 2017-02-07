@@ -1,8 +1,8 @@
 * {
     font-family: 'Dosis', sans-serif;
-    font-size: 2.5vh;    
+    /*font-size: 2.5vh;    */
 }
-/*nav{
+nav{
   background-color: black;
 }
 
@@ -13,7 +13,7 @@ nav ul li:hover {
 #nav-mobile li a{
     cursor: pointer !important;
     height: 10%;
-}*/
+}
 
 .navbar-fixed {
   z-index: 998 !important;
@@ -552,11 +552,11 @@ footer {
       }
 
         picTxt{
-            position: absolute;
-            padding-top:2vh;
-            left: 35%;
-            width: 30%;
-            z-index: 100;
+        position: absolute;
+        padding-top:2vh;
+        left: 35%;
+        width: 30%;
+        z-index: 100;
       }
 
         #skills{
@@ -571,8 +571,6 @@ footer {
           padding-bottom: 30%;
           align-content: center;
       }
-
-
 
       .edu {
         /*width: 100%;*/
