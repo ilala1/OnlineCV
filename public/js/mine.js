@@ -7,23 +7,6 @@ function myFunction() {
     }
 }
 
-  $(document).ready(function(){
-    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-    $('.modal').modal();
-  });
-
-// // sticky nav
-//  var  mn = $("#myTopnav");
-//     mns = "main-nav-scrolled responsive";
-
-// $(window).scroll(function() {
-//   if( $(this).scrollTop() > 400 ) {
-//     mn.addClass(mns);
-//   } else {
-//     mn.removeClass(mns);
-//   }
-// });
-
 // collapsible job section
 $(document).ready(function(){
 
@@ -32,21 +15,14 @@ $(document).ready(function(){
   ;
 
 // smooth scroll
-  $(document).ready(function () {
-     $('#top').on('click', function (e) {
-         e.preventDefault();
-
-         var target = this.hash,
-             $target = $(target);
-
-         $('html, body').stop().animate({
-             'scrollTop': $target.offset().top - 100
-         }, 900, 'swing', function () {
-             window.location.hash = target;
-         });
-     });
- });
-
+ //smooth scroll
+  $('.scrollspy').click(function (e) {
+    let linkHref = $(this).attr('href');
+    $('html, body').animate({
+      scrollTop: $(linkHref).offset().top - 66
+    }, 1000);
+    e.preventDefault(); //removes section name from url
+  });
 
 // bouncing on scroll
 $(function(){
@@ -88,5 +64,4 @@ jQuery(document).ready(function($){
 		 	}, scroll_top_duration
 		);
 	});
-
 });
