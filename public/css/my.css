@@ -1,22 +1,10 @@
 * {
     font-family: 'Dosis', sans-serif;
-    /*font-size: 2.5vh;    */
+    font-size: 2.5vh;    
 }
-/*nav{
-  background-color: black;
-  height: 20%;
-}
-
-#nav-mobile li a:hover {
-    cursor: pointer !important;
-}
-
-.navbar-fixed {
-  z-index: 998 !important;
-}*/
 
 nav{
-	background-color: #CDAD00 !important;
+	background-color: black !important;
 	width: 100%;
 	opacity: 0.9;
 }
