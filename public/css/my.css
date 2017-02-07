@@ -2,9 +2,8 @@
     font-family: 'Dosis', sans-serif;
     font-size: 2.5vh;    
 }
-nav{
+/*nav{
   background-color: black;
-  height: 9%;
 }
 
 nav ul li:hover {
@@ -13,7 +12,8 @@ nav ul li:hover {
 
 #nav-mobile li a{
     cursor: pointer !important;
-}
+    height: 10%;
+}*/
 
 .navbar-fixed {
   z-index: 998 !important;
