@@ -366,6 +366,7 @@ hr {
 .hovereffect a, .hovereffect p {
   color:  #ff6347;
   opacity: 0;
+  font-size: 15px;
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
@@ -403,6 +404,7 @@ hr {
     background-color: #ff6347;
 
 }
+
 
 footer {
   padding-top: 5%;
